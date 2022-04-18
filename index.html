@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="principal">
+     <div class="dog">
+    <img src="img/pet.png" alt="">
+      </div>
+
+    <form class="formulario">
+        <h1>Cadastrar Pet</h1>
+
+        <div class="form">
+            <input type="text" placeholder="Nome do Pet">
+            <input class="idade" type="idade" placeholder="Idade">
+        </div>
+
+        <div class="email">
+            <input type="email" placeholder="Email do Responável">
+        </div>
+
+        <h2>Espécie</h2>
+        
+        <div class="especie">
+            <div class="canino">
+                <input type="radio" id="canino" name="especie">
+                <label for="canino">Canino</label>
+            </div>
+
+            <div class="felino">
+                <input type="radio" id="felino" name="especie">
+                <label for="felino">Felino</label>
+            </div>
+        </div>
+
+        <div class="porte">
+            <strong>Porte</strong>
+
+            <div class="porte-2">
+                <div class="pequeno">
+                    <input type="radio" id="pequeno" name="porte-2">
+                    <label for="pequeno">Pequeno</label>
+                </div>
+
+                <div class="pequeno">
+                    <input type="radio" id="medio" name="porte-2">
+                    <label for="medio">Médio</label>
+                </div>
+
+                <div class="pequeno">
+                    <input type="radio" id="grande" name="porte-2">
+                    <label for="grande">Grande</label>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn">
+            <button>Cadastrar</button>
+        </div>
+       
+      
+    </form>
+
+    </main>
+</body>
+
+</html>
